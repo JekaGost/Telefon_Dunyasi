@@ -179,8 +179,7 @@
     
 
 
-          
-
+      
 
 ?>
 
@@ -210,7 +209,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="ana-sayfa.php">Ana Sayfa</a>
+
+              <?php
+              
+                if($SessionValue!=""){
+
+                  echo "<a class='nav-link' href='ana-sayfa.php'>Ana Sayfa</a>";
+                }
+                else{
+
+                  echo "<a class='nav-link' href='index.php'>Ana Sayfa</a>";
+                }
+              ?>
+
             </li>
             <li class="nav-item active">
                 <?php
@@ -470,7 +481,7 @@
 
           <div id="info" class="container w-25 pt-5 d-flex justify-content-center align-items-center">
             <h1>Ram:</h1>
-            <h1 id="info-text"><?php $ProductRam?> GB</h1>
+            <h1 id="info-text"><?php echo $ProductRam?></h1>
           </div>
 
           <div id="info" class="container w-25 pt-5 d-flex justify-content-center align-items-center">
