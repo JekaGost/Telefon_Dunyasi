@@ -1,0 +1,54 @@
+#login-form-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#login-form-body>h1{
+    font-size: 3.3rem;
+}
+
+
+#login-form{
+    width: 30%;
+    padding: 2rem;
+}
+
+
+
+#button-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#button-div>button{
+    background-color: #00008b;
+    border-color: #00008b;
+}
+
+
+#button-div>button:hover{
+    background-color: #000070;
+}
+
+
+#no-account-div{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+
+#no-account-div>p{
+    font-size: 1rem;
+}
+
+
+#no-account-div>a{
+    font-size: 1rem;
+}

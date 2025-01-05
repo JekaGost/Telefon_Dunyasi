@@ -1,0 +1,35 @@
+#header{
+    font-size: 3rem;
+}
+
+
+#change-info-div>form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+
+#change-info-div>form>.form-group{
+    width: 20%;
+}
+
+textarea{
+    aspect-ratio: 16/6;
+    resize: none;
+}
+
+
+#change-info-div>form>#button-div>button{
+    background-color: #00008b;
+    border-color: #00008b;
+}
+
+
+#change-info-div>form>#button-div>button:hover{
+    background-color: #000070;
+}

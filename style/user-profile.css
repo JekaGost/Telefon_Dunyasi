@@ -1,0 +1,115 @@
+#header-div{
+    text-align: center;
+}
+
+
+#header-div>#header{
+    font-size: 4rem;
+}
+
+
+#forms-container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#forms-container>#user-id-div{
+    padding-top: 2rem;
+}
+
+#forms-container>#user-id-div>h1{
+    font-size: 2rem;
+    color: gray;
+}
+
+
+
+#forms-container>#forms-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+    word-break: keep-all;
+}
+
+
+#forms-container>#forms-div>form{
+    display: flex;
+}
+
+
+#forms-container>#forms-div>form>.form-group{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    word-break: keep-all;
+    gap: 1rem;
+}
+
+
+
+#forms-container>#forms-div>form>#button-div{
+    width: fit-content;
+}
+
+
+#forms-container>#forms-div>form>#button-div>button{
+    background-color: #00008b;
+    border-color: #00008b;
+}
+
+#forms-container>#forms-div>form>#button-div>button:hover{
+    background-color: #000070;
+}
+
+textarea{
+    resize: none;
+}
+
+
+#orders-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#order-div{
+    border: 0.05rem solid gray;
+}
+
+
+#order-div>#order-cell{
+    width: 14%;
+    word-break: break-all;
+}
+
+#order-cell-header{
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-decoration: underline;
+    color: #00008b;
+}
+
+
+#order-cell-info>a{
+    font-size: 1rem;
+}
+
+
+
+
+#previous-orders-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+

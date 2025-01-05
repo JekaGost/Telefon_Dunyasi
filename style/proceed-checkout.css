@@ -1,0 +1,136 @@
+#header-div>h1{
+    font-size: 3.5rem;
+}
+
+
+#products-div{
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+
+#products-div>#product{
+    height: 20rem;
+    border: 0.05rem solid #d3d3d3;
+}
+
+
+#products-div>#product>#photo-div{
+    aspect-ratio: 1;
+    background-size: cover;
+}
+
+
+#products-div>#product>#info-div{
+    height: 17rem;
+    padding-top: 1rem;
+    width: 65%;
+}
+
+
+#products-div>#product>#info-div>#product-name{
+    font-size: 2rem;
+    font-weight: lighter;
+    color: black;
+}
+
+
+#products-div>#product>#info-div>#product-price-div{
+    gap: 1rem;
+}
+
+#products-div>#product>#info-div>#product-price-div>#discounted-price{
+    font-size: 1.5rem;
+    color: #00008b;
+}
+
+
+#products-div>#product>#info-div>#product-price-div>#product-price{
+    font-size: 1.5rem;
+    color: #00008b;
+    text-decoration: line-through red;
+}
+
+
+#products-div>#product>#remove-product-div{
+    width: 5%;
+    height: 20rem;
+}
+
+
+#products-div>#product>#remove-product-div>a{
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+
+
+#products-div>#product>#remove-product-div>a:hover{
+    color: red;
+}
+
+
+#products-div>#product>#info-div>#product-quantity-div{
+    font-size: 1.3rem;
+    color: gray;
+}
+
+
+#address-div,#financial-div{
+    row-gap: 1.5rem;
+}
+
+
+#address-div>#info-cell{
+    width: 20%;
+    word-break: break-all;
+
+}
+
+
+#financial-div>#info-cell{
+    width: 20%;
+    word-break: break-all;
+}
+
+
+#address-div,#financial-div>#info-cell>p{
+    font-size: 1.1rem;
+    color: gray;
+}
+
+
+
+
+#change-info-div>form>button{
+    font-size: 1.3rem;
+    background-color: transparent;
+    border: none;
+    color: #00008b;
+}
+
+
+#change-info-div>form>button:hover{
+    text-decoration: underline;
+}
+
+
+
+#checkout-info-div>p{
+    font-size: 1.2rem;
+    color: gray;
+    font-weight: 400;
+}
+
+
+
+#checkout-info-div>form>button{
+    background-color: #00008b;
+    border-color: #00008b;
+}
+
+
+
+#checkout-info-div>form>button:hover{
+    background-color: #000070;
+}

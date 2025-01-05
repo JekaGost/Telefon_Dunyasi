@@ -1,0 +1,98 @@
+
+img{
+    height: 45rem;
+}
+
+#apple-phone-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#product-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10rem;
+}
+
+#apple-phone-container>h1{
+    font-size: 3rem;
+}
+
+
+#on-discount-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#on-discount-container>h1{
+    font-size: 3rem;
+}
+
+
+
+#newly-arrived-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+#newly-arrived-container>h1{
+    font-size: 3rem;
+}
+
+
+#ürün{
+    width: 17%;
+    border: 0.05rem solid gray;
+    height: fit-content;
+    min-height: 25rem;
+    border-radius: 1rem;
+    word-break: break-all;
+}
+
+
+#ürün>#ürün-link{
+    text-decoration: none;
+}
+
+
+form{
+    display: flex;
+    justify-content: end;
+}
+
+
+#foto{
+    aspect-ratio: 1;
+    background-color: red;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-size: cover;
+}
+
+
+#ürün-isim{
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-left: 6%;
+}
+
+
+#ürün-fiyat{
+    color: gray;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-left: 6%;
+}
